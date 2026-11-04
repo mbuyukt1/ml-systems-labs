@@ -19,7 +19,7 @@ This repository implements five laboratory assignments following the standardize
     ├── lab02/  # Neural Network from First Principles
     ├── lab03/  # Architectures and Their Costs
     ├── lab04/  # Data Pipeline and Quality Assurance
-    └── lab5/   # Frameworks and Automatic Differentiation
+    └── Lab05/   # Frameworks and Automatic Differentiation
         ├── README.md
         ├── report.md
         ├── src/
@@ -52,4 +52,4 @@ Each lab contains its report, source code, and supporting results.
     python lab02/src/experiment_runner.py
     python lab03/src/evaluate_efficiency.py
     python lab04/src/pipeline_runner.py
-    python lab5/src/run_experiments.py
+    python Lab05/src/run_experiments.py
