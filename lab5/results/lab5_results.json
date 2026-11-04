@@ -1,0 +1,73 @@
+{
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+  },
+  "gradient_validation": {
+    "torch_max_abs_difference": 0.0,
+    "finite_difference_max_abs_difference": 1.6083223641771838e-10,
+    "tolerance": 1e-06,
+    "passed": true,
+    "elements_per_input": 8,
+    "loss": 1.5934000000000004
+  },
+  "training": {
+    "runs": 5,
+    "epochs": 18,
+    "samples": 128,
+    "custom_median_seconds": 1.024428300006548,
+    "pytorch_median_seconds": 1.611158899992006,
+    "custom_accuracy_per_run": [
+      0.8828125,
+      0.90625,
+      0.875,
+      0.875,
+      0.8671875
+    ],
+    "pytorch_accuracy_per_run": [
+      0.9609375,
+      0.890625,
+      0.859375,
+      0.921875,
+      0.875
+    ]
+  },
+  "framework": {
+    "execution": {
+      "method": "torch.jit.trace",
+      "warmup_calls": 30,
+      "iterations_per_repeat": 300,
+      "repeats": 5,
+      "eager_median_us_per_call": 113.7116666844425,
+      "traced_median_us_per_call": 57.76033339013035,
+      "traced_speedup": 1.9686809270369048,
+      "graph_operators": [
+        "aten::linear",
+        "aten::relu",
+        "aten::sigmoid"
+      ]
+    },
+    "tensor_layout": {
+      "shape": [
+        256,
+        256
+      ],
+      "dtype": "torch.float32",
+      "contiguous_stride": [
+        256,
+        1
+      ],
+      "noncontiguous_stride": [
+        512,
+        2
+      ],
+      "contiguous_is_contiguous": true,
+      "view_is_contiguous": false,
+      "matmul_contiguous_median_us": 259.28799994289875,
+      "matmul_view_median_us": 305.05199974868447,
+      "view_over_contiguous_ratio": 1.1764987188603562
+    }
+  }
+}
