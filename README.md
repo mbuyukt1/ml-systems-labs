@@ -9,7 +9,7 @@
 
 ## Portfolio Organization
 
-This repository implements five laboratory assignments following the standardized structural specification:
+This repository implements four laboratory assignments following the standardized structural specification:
 
     ml-systems-labs/
     ├── README.md
