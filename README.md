@@ -19,11 +19,6 @@ This repository implements four laboratory assignments following the standardize
     ├── lab02/  # Neural Network from First Principles
     ├── lab03/  # Architectures and Their Costs
     ├── lab04/  # Data Pipeline and Quality Assurance
-    └── Lab05/   # Frameworks and Automatic Differentiation
-        ├── README.md
-        ├── report.md
-        ├── src/
-        └── results/
 
 Each lab contains its report, source code, and supporting results.
 
@@ -37,7 +32,6 @@ Each lab contains its report, source code, and supporting results.
 | Lab 02 | A Neural Network from Scratch | Ch. 3 | Matrix calculus chain rule, 10/10 gradient verification, GEMM profiling | Verified |
 | Lab 03 | Architectures and Their Costs | Ch. 4 | PyTorch MLP, CNN, Attention; hand FLOPs vs thop, Pareto trade-off curves | Verified |
 | Lab 04 | Data Pipeline and Quality Engineering | Ch. 5, 6 | OpenML Adult dataset, zero-leakage preprocessing, feature synthesis, duplicate audit | Verified |
-| Lab 5 | Frameworks and Automatic Differentiation | Ch. 7 | Scalar reverse-mode engine, gradient references, make-moons training timing, eager/traced and tensor-layout profiling | Complete |
 
 ---
 
@@ -52,4 +46,3 @@ Each lab contains its report, source code, and supporting results.
     python lab02/src/experiment_runner.py
     python lab03/src/evaluate_efficiency.py
     python lab04/src/pipeline_runner.py
-    python Lab05/src/run_experiments.py
