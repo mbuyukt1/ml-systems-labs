@@ -1,0 +1,108 @@
+{
+  "student": "Miray B\u00fcy\u00fcktepe (73681)",
+  "expression": "((a * b + c) ** 2).relu().sum()",
+  "loss_custom": 16.8345,
+  "loss_pytorch": 16.8345,
+  "max_abs_diff_torch": 0.0,
+  "max_abs_diff_fd": 2.263155707282749e-08,
+  "threshold": 1e-06,
+  "passed": true,
+  "audit": [
+    {
+      "variable": "a_0",
+      "custom_gradient": 4.0,
+      "pytorch_gradient": 4.0,
+      "numerical_gradient": 3.9999999934536845,
+      "diff_torch": 0.0,
+      "diff_fd": 6.546315489686094e-09
+    },
+    {
+      "variable": "a_1",
+      "custom_gradient": -11.850000000000001,
+      "pytorch_gradient": -11.850000000000001,
+      "numerical_gradient": -11.849999985713566,
+      "diff_torch": 0.0,
+      "diff_fd": 1.4286435146004806e-08
+    },
+    {
+      "variable": "a_2",
+      "custom_gradient": 0.25600000000000167,
+      "pytorch_gradient": 0.25600000000000167,
+      "numerical_gradient": 0.2560000034179666,
+      "diff_torch": 0.0,
+      "diff_fd": 3.4179649111010235e-09
+    },
+    {
+      "variable": "a_3",
+      "custom_gradient": 0.864,
+      "pytorch_gradient": 0.864,
+      "numerical_gradient": 0.864000000433407,
+      "diff_torch": 0.0,
+      "diff_fd": 4.3340697697402675e-10
+    },
+    {
+      "variable": "b_0",
+      "custom_gradient": -2.5,
+      "pytorch_gradient": -2.5,
+      "numerical_gradient": -2.4999999936881068,
+      "diff_torch": 0.0,
+      "diff_fd": 6.311893230304122e-09
+    },
+    {
+      "variable": "b_1",
+      "custom_gradient": 16.59,
+      "pytorch_gradient": 16.59,
+      "numerical_gradient": 16.590000022631557,
+      "diff_torch": 0.0,
+      "diff_fd": 2.263155707282749e-08
+    },
+    {
+      "variable": "b_2",
+      "custom_gradient": 0.03600000000000023,
+      "pytorch_gradient": 0.03600000000000023,
+      "numerical_gradient": 0.036000002978653356,
+      "diff_torch": 0.0,
+      "diff_fd": 2.978653122764907e-09
+    },
+    {
+      "variable": "b_3",
+      "custom_gradient": -1.728,
+      "pytorch_gradient": -1.728,
+      "numerical_gradient": -1.728000000866814,
+      "diff_torch": 0.0,
+      "diff_fd": 8.668139539480535e-10
+    },
+    {
+      "variable": "c_0",
+      "custom_gradient": -2.0,
+      "pytorch_gradient": -2.0,
+      "numerical_gradient": -2.0000000056086265,
+      "diff_torch": 0.0,
+      "diff_fd": 5.608626452158205e-09
+    },
+    {
+      "variable": "c_1",
+      "custom_gradient": -7.9,
+      "pytorch_gradient": -7.9,
+      "numerical_gradient": -7.900000014160469,
+      "diff_torch": 0.0,
+      "diff_fd": 1.4160468353452416e-08
+    },
+    {
+      "variable": "c_2",
+      "custom_gradient": 0.08000000000000052,
+      "pytorch_gradient": 0.08000000000000052,
+      "numerical_gradient": 0.08000000661922968,
+      "diff_torch": 0.0,
+      "diff_fd": 6.6192291647837465e-09
+    },
+    {
+      "variable": "c_3",
+      "custom_gradient": 0.96,
+      "pytorch_gradient": 0.96,
+      "numerical_gradient": 0.9600000083764826,
+      "diff_torch": 0.0,
+      "diff_fd": 8.376482618643877e-09
+    }
+  ]
+}
