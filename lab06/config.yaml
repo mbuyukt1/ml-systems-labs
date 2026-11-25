@@ -1,8 +1,0 @@
-student: "Miray Büyüktepe"
-student_id: "73681"
-experiment: "lab6_73681"
-seed: 66
-width: 16
-workers: 2
-sgd_lr: 0.03
-adam_lr: 0.001
